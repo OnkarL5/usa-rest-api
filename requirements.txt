@@ -1,0 +1,7 @@
+Flask
+Flask-RESTful
+Flask-CORS
+Flask-JWT
+Flask-SQLAlchemy
+uwsgi
+werkzeug
