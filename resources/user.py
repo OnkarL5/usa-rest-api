@@ -65,6 +65,7 @@ class UserRegister(Resource):
 
 
 class User(Resource):
+	@jwt_required()
 	def get(self,username):
 		usa = UserModel.find_by_username(username)
 		if usa:
