@@ -1,4 +1,4 @@
-# REST api for registering and retrieving user data (Ready to deploy on Heroku)
+# REST api for registering and retrieving user data
 python, flask, flask-RESTful, flask_jwt, SQLAlchemy
 
 ## User Database
